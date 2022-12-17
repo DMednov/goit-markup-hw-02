@@ -1,0 +1,209 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    --title-color: #2E2F42;
+    --first-text-color: #434455;
+    --second-text-color: #E7E9FC;
+    --typical-lh: 1.5;
+}
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    }
+.text {
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;   
+}
+.btn{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    border: 1px solid #E7E9FC;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+    /* -----------------HEADER---------------- */
+.header {
+}
+.header-navigation {
+
+}
+.header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    
+}
+.header-list {
+}
+.header-item {
+}
+.list {
+    list-style: none;
+}
+/* linl */
+.link {
+    text-decoration: none;
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+.header-mail {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--first-text-color);
+}
+.header-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--first-text-color);
+}
+/* ----------------HERO--------------- */
+.hero {
+    background: #2E2F42;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+/* -----------------CATEGORIES---------------- */
+.categories {
+}
+.categories-list {
+}
+.list {
+}
+.categories-item {
+}
+.categories-btn:hover,
+.categories-btn:focus {
+    color: #FFFFFF;
+    background: #4D5AE5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+/* ------------------ABOUT------------------ */
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-item-title {
+    color: var(--title-color);
+}
+.about-item-text {
+    color: var(--first-text-color);
+}
+/* ------------------APP------------------ */
+.app {
+}
+.app-list {
+}
+.app-item {
+}
+.app-item-title {
+    color: var(--title-color);
+}
+.app-item-text {
+    color: var(--first-text-color);
+}
+/* -----------------SPECIFICS---------------- */
+.specifics {
+}
+.specifics-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+
+}
+.specifics-list {
+}
+.specifics-item {
+}
+/* -------------------MARKETING--------------- */
+.marketing {
+}
+.marketing-list {
+}
+.marketing-item {
+}
+.marketing-item-title {
+    color: var(--title-color);
+}
+.marketing-item-text {
+    color: var(--first-text-color);
+}
+/* -------------------TEAM---------------- */
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-title {
+    color: var(--title-color);
+}
+.team-item-text {
+    color: var(--first-text-color);
+}
+/* --------------------WEBSITE---------------- */
+.website {
+}
+.website-list {
+}
+.website-item {
+}
+.website-item-title {
+    color: var(--title-color);
+}
+.website-item-text {
+    color: var(--first-text-color);
+}
+/* ------------------FOOTER---------------- */
+.footer {
+  background: #2E2F42;
+}
+.footer-logo {
+}
+.footer-text {
+    color: var(--second-text-color);
+}
