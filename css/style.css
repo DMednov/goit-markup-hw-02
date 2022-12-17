@@ -98,22 +98,31 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
-/* -----------------CATEGORIES---------------- */
-.categories {
+/* -----------------PRFO---------------- */
+.prfo {
 }
-.categories-list {
+.prfo-categories-list {
 }
-.list {
+.prfo-categories-item {
 }
-.categories-item {
-}
-.categories-btn:hover,
-.categories-btn:focus {
+.prfo-categories-btn:hover,
+.prfo-categories-btn:focus {
     color: #FFFFFF;
     background: #4D5AE5;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+.prfo-services-list {
+}
+.prfo-services-item {
+}
+.prfo-services-title {
+    color: var(--title-color);
+}
+.prfo-services-text {
+    color: var(--first-text-color);
+}
+
 /* ------------------ABOUT------------------ */
 .about {
 }
@@ -127,19 +136,7 @@ body {
 .about-item-text {
     color: var(--first-text-color);
 }
-/* ------------------APP------------------ */
-.app {
-}
-.app-list {
-}
-.app-item {
-}
-.app-item-title {
-    color: var(--title-color);
-}
-.app-item-text {
-    color: var(--first-text-color);
-}
+
 /* -----------------SPECIFICS---------------- */
 .specifics {
 }
@@ -157,19 +154,7 @@ body {
 }
 .specifics-item {
 }
-/* -------------------MARKETING--------------- */
-.marketing {
-}
-.marketing-list {
-}
-.marketing-item {
-}
-.marketing-item-title {
-    color: var(--title-color);
-}
-.marketing-item-text {
-    color: var(--first-text-color);
-}
+
 /* -------------------TEAM---------------- */
 .team {
 }
@@ -185,19 +170,7 @@ body {
 .team-item-text {
     color: var(--first-text-color);
 }
-/* --------------------WEBSITE---------------- */
-.website {
-}
-.website-list {
-}
-.website-item {
-}
-.website-item-title {
-    color: var(--title-color);
-}
-.website-item-text {
-    color: var(--first-text-color);
-}
+
 /* ------------------FOOTER---------------- */
 .footer {
   background: #2E2F42;
